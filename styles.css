@@ -2,15 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
 body {
     background-color: #f5f5f5;
     color: #333;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
+    font-family: "Montserrat", sans-serif;
     background-color: #fff;
     display: flex;
     justify-content: space-between;
@@ -20,13 +21,13 @@ header {
 }
 
 .logo img {
-    height: 40px;
+    height: 80px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 nav a {
@@ -36,14 +37,19 @@ nav a {
 }
 
 .subscribe {
-    background-color: #4A90E2;
+    background-color: #0000ee;
     color: #fff;
     border: none;
-    padding: 0.5rem 1rem;
+    padding: .8rem 1rem;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
+.subscribe:hover {
+    background-color: #1572f3;
+}
 .hero {
     background-color: #fefefe;
     padding: 2rem;
@@ -51,18 +57,19 @@ nav a {
 }
 
 .hero-content h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 5rem;
+    margin-bottom: .5rem;
 }
 
 .hero-content p {
-    color: #777;
+    color: #535353;
 }
 
 .featured-post {
     display: flex;
     justify-content: center;
-    padding: 2rem;
+    padding: 3rem 1rem;
 }
 
 .post {
@@ -70,7 +77,7 @@ nav a {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    max-width: 600px;
+    width: 800px;
 }
 
 .post img {
@@ -108,12 +115,12 @@ nav a {
 }
 
 .other-posts .post {
-    max-width: 300px;
+    width: 450px;
 }
 
 footer {
     text-align: center;
-    padding: 1rem;
+    padding: 3rem;
     background-color: #fff;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
