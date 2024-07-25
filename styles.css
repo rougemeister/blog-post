@@ -7,7 +7,8 @@
 body {
     background-color: #f5f5f5;
     color: #333;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Inter Tight", sans-serif;
+    
 }
 
 header {
@@ -98,7 +99,7 @@ nav a {
 }
 
 .post-info h2, .post-info h3 {
-    margin: 0.5rem 0;
+    margin: 0.8rem 0;
 }
 
 .post-info p {
@@ -123,4 +124,25 @@ footer {
     padding: 3rem;
     background-color: #fff;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+@media screen and (max-width: 785px) {
+    /* nav ul {
+       flex-wrap: wrap;
+    } */
+    header {
+        flex-wrap: wrap;
+    }
+    .subscribe {
+        margin-top: 1.5rem;
+        padding: .5rem .5rem;
+        font-size: 0.8rem;
+    }
+    nav ul {
+        gap: 0.8rem;
+    }
+    nav a {
+        font-size: .8rem;
+    }
 }
